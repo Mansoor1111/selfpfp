@@ -1,7 +1,7 @@
 module.exports = (self) => {
   self.registerCommand('stats', function (msg, args) {
     // Do something with msg or args
-	this.send(msg, '**Current Interval Stats:**\nMessage: ' + self.message + '\nReps: ' + self.reps + '\nInterval: ' + self.delay + 'ms\nRandomAdd: ' + self.randomAdd + 'ms');
+	this.send(msg, '**Current Interval Stats:**\nMessage: ' + self.message + '\nInterval: ' + self.delay + 'hrs');
 
   }, {
     noPms: false, // Will only work on guilds (No PM's)

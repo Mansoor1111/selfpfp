@@ -4,7 +4,7 @@ module.exports = (self) => {
   self.registerCommand('delay', function (msg, args) {
     // Do something with msg or args
 	if(args == '') {
-		this.send(msg, 'Current delay is: ' + self.delay + 'ms');
+		this.send(msg, 'Current delay is: ' + self.delay + 'hrs');
 		return;
 	}
 	if(isNaN(args)) {
@@ -12,7 +12,7 @@ module.exports = (self) => {
 		return;
 	}
 	self.delay = args;
-    this.send(msg, 'Changing delay to ' + self.delay + 'ms') // Send a message
+    this.send(msg, 'Changing delay to ' + self.delay + 'hrs') // Send a message
 
   }, {
     noPms: false, // Will only work on guilds (No PM's)

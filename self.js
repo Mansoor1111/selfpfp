@@ -27,10 +27,8 @@ let isReady = false
 self.constants = constants
 self.config = config
 
-self.delay = 10000;
-self.reps = 10;
-self.message = '';
-self.randomAdd = 0;
+self.delay = 2;
+self.message = 'TBD';
 
 
 const counts = {
