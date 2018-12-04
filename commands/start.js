@@ -10,7 +10,7 @@ module.exports = (self) => {
 		var d = new Date();
 		var START_DATE = '2018-08-04'; // Date used as the starting point for multi-hour intervals, must be YYYY-MM-DD format
 		var START_HOUR = 0; // Hour of the day when the timer begins (0 is 12am, 23 is 11pm), used with START_DATE and INTERVAL_HOURS param
-		var INTERVAL_HOURS = finalDelay; // Trigger at an interval of every X hours
+		var INTERVAL_HOURS = Number(finalDelay); // Trigger at an interval of every X hours
 		var TARGET_MINUTE = 0; // Minute of the hour when the chest will refresh, 30 means 1:30, 2:30, etc.
 		var OFFSET = 0; // Notification will warn that the target is X minutes away
 		var NOTIFY_MINUTE = (TARGET_MINUTE < OFFSET ? 60 : 0) + TARGET_MINUTE - OFFSET;
