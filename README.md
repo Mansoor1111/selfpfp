@@ -1,7 +1,6 @@
 Setup--
 1) Install node.js here: https://nodejs.org/en/
-2) Create a second Discord account. You want this second account to be doing stuff because self-bots 
-   are at risk of being banned.
+2) Create a second Discord account for your Discord bot.
 3) Input the token of your discord account in config.json in the config folder. Instructions on that 
    here https://github.com/TheRacingLion/Discord-SelfBot/wiki/Discord-Token-Tutorial
 4) Input the owner ID of the new discord account in config.json in the config folder. Instructions on 
