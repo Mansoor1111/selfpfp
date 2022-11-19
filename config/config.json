@@ -1,9 +1,9 @@
 {
-  "token": "NTE0NDc3MzAxMjY2NjQ0OTk0.Dtj48Q.1C9JMapx9BdmuJJiWsA34ELQGa4",
+  "token": "MTA0MTU3Nzk1NzE4NzEyNTMxOA.GUvzyp.PYtSJHZK7CbZ1ENs2u6RVoGdYyv_78JHAltNLU",
   "ownerID": "514477301266644994",
   "prefix": "&",
   "delay": "5000",
-  "rotatePlayingGame": true,
+  "rotatePlayingGame": false,
   "rotatePlayingGameTime" : 150000,
   "rotatePlayingGameInStreamingStatus": false,
   "rotateAvatarImage": true,
